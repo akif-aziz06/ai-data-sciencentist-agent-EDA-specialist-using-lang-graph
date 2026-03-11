@@ -1,0 +1,115 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ==========================
+# Virtual Environments
+# ==========================
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# ==========================
+# Environment / Secrets
+# ==========================
+.env
+.evv
+*.env
+*.evv
+secrets.json
+config.secret.*
+
+# ==========================
+# Jupyter Notebooks
+# ==========================
+.ipynb_checkpoints/
+*.ipynb
+
+# ==========================
+# Data Science / AI
+# ==========================
+# Datasets
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.feather
+
+# Model artifacts
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+
+# Vector stores / Chroma DB
+chroma_db/
+*.db
+*.sqlite
+*.faiss
+
+# MLflow / experiment tracking
+mlruns/
+mlflow.db
+
+# ==========================
+# Logs & Outputs
+# ==========================
+logs/
+*.log
+output/
+results/
+reports/
+
+# ==========================
+# IDE & Editors
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Testing
+# ==========================
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ==========================
+# Misc
+# ==========================
+tmp/
+temp/
+.cache/
